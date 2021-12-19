@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="33" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Medicare Capstone" duration-ms="230650" started-at="2021-12-12T04:13:38 IST" finished-at="2021-12-12T04:17:29 IST">
+    <groups>
+    </groups>
+    <test name="test_suites" duration-ms="230650" started-at="2021-12-12T04:13:38 IST" finished-at="2021-12-12T04:17:29 IST">
+      <class name="test_suites.AdminActions">
+        <test-method status="PASS" signature="ValidAdminUserLoginCheck(java.lang.String,java.lang.String)[pri:0, instance:test_suites.AdminActions@150c158]" name="ValidAdminUserLoginCheck" duration-ms="4513" started-at="2021-12-12T04:16:34 IST" finished-at="2021-12-12T04:16:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAdminUserLoginCheck -->
+        <test-method status="PASS" signature="ManageProductsPageConfirm()[pri:1, instance:test_suites.AdminActions@150c158]" name="ManageProductsPageConfirm" duration-ms="4357" started-at="2021-12-12T04:16:39 IST" finished-at="2021-12-12T04:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageProductsPageConfirm -->
+        <test-method status="PASS" signature="AddMedicine(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_suites.AdminActions@150c158]" name="AddMedicine" duration-ms="5928" started-at="2021-12-12T04:16:43 IST" finished-at="2021-12-12T04:16:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ibuprofen 400mg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reddys]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMedicine -->
+        <test-method status="PASS" signature="EditMedQty(java.lang.String,java.lang.String)[pri:3, instance:test_suites.AdminActions@150c158]" name="EditMedQty" duration-ms="7762" started-at="2021-12-12T04:16:49 IST" finished-at="2021-12-12T04:16:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paracetamol]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditMedQty -->
+        <test-method status="PASS" signature="product_ActivateDeactivate(java.lang.String)[pri:4, instance:test_suites.AdminActions@150c158]" name="product_ActivateDeactivate" duration-ms="23318" started-at="2021-12-12T04:16:57 IST" finished-at="2021-12-12T04:17:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paracetamol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product_ActivateDeactivate -->
+        <test-method status="PASS" signature="EditedMedQty(java.lang.String)[pri:5, instance:test_suites.AdminActions@150c158]" name="EditedMedQty" duration-ms="4781" started-at="2021-12-12T04:17:20 IST" finished-at="2021-12-12T04:17:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paracetamol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditedMedQty -->
+        <test-method status="PASS" signature="userLogOutClick()[pri:5, instance:test_suites.AdminActions@150c158]" name="userLogOutClick" duration-ms="4035" started-at="2021-12-12T04:17:25 IST" finished-at="2021-12-12T04:17:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogOutClick -->
+      </class> <!-- test_suites.AdminActions -->
+      <class name="test_suites.SiteMap_Common">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test_suites.SiteMap_Common@782663d3]" name="setup" is-config="true" duration-ms="8609" started-at="2021-12-12T04:13:38 IST" finished-at="2021-12-12T04:13:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateHomePage()[pri:0, instance:test_suites.SiteMap_Common@782663d3]" name="validateHomePage" duration-ms="3095" started-at="2021-12-12T04:13:47 IST" finished-at="2021-12-12T04:13:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateContactPage()[pri:1, instance:test_suites.SiteMap_Common@782663d3]" name="validateContactPage" duration-ms="4263" started-at="2021-12-12T04:13:50 IST" finished-at="2021-12-12T04:13:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactPage -->
+        <test-method status="PASS" signature="validateAboutPage()[pri:2, instance:test_suites.SiteMap_Common@782663d3]" name="validateAboutPage" duration-ms="2200" started-at="2021-12-12T04:13:54 IST" finished-at="2021-12-12T04:13:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAboutPage -->
+        <test-method status="PASS" signature="validateViewProducts()[pri:3, instance:test_suites.SiteMap_Common@782663d3]" name="validateViewProducts" duration-ms="4291" started-at="2021-12-12T04:13:57 IST" finished-at="2021-12-12T04:14:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateViewProducts -->
+        <test-method status="PASS" signature="validate_Categories_AntipyreticsViewProducts()[pri:4, instance:test_suites.SiteMap_Common@782663d3]" name="validate_Categories_AntipyreticsViewProducts" duration-ms="6787" started-at="2021-12-12T04:14:01 IST" finished-at="2021-12-12T04:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Categories_AntipyreticsViewProducts -->
+        <test-method status="PASS" signature="validate_Categories_AnalgesicsViewProducts()[pri:5, instance:test_suites.SiteMap_Common@782663d3]" name="validate_Categories_AnalgesicsViewProducts" duration-ms="6769" started-at="2021-12-12T04:14:08 IST" finished-at="2021-12-12T04:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Categories_AnalgesicsViewProducts -->
+        <test-method status="PASS" signature="validate_Categories_AntibioticsViewProducts()[pri:6, instance:test_suites.SiteMap_Common@782663d3]" name="validate_Categories_AntibioticsViewProducts" duration-ms="6778" started-at="2021-12-12T04:14:15 IST" finished-at="2021-12-12T04:14:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Categories_AntibioticsViewProducts -->
+        <test-method status="PASS" signature="validateSignupPage()[pri:7, instance:test_suites.SiteMap_Common@782663d3]" name="validateSignupPage" duration-ms="4484" started-at="2021-12-12T04:14:21 IST" finished-at="2021-12-12T04:14:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupPage -->
+        <test-method status="PASS" signature="validateLoginPage()[pri:8, instance:test_suites.SiteMap_Common@782663d3]" name="validateLoginPage" duration-ms="3447" started-at="2021-12-12T04:14:26 IST" finished-at="2021-12-12T04:14:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:test_suites.SiteMap_Common@782663d3]" name="TearDown" is-config="true" duration-ms="0" started-at="2021-12-12T04:17:29 IST" finished-at="2021-12-12T04:17:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test_suites.SiteMap_Common -->
+      <class name="test_suites.Shopping">
+        <test-method status="PASS" signature="InValidUserLoginCheck(java.lang.String,java.lang.String)[pri:0, instance:test_suites.Shopping@2e3fc542]" name="InValidUserLoginCheck" duration-ms="5702" started-at="2021-12-12T04:14:29 IST" finished-at="2021-12-12T04:14:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidUserLoginCheck -->
+        <test-method status="PASS" signature="InValidPasswordLogin_Check1(java.lang.String,java.lang.String)[pri:1, instance:test_suites.Shopping@2e3fc542]" name="InValidPasswordLogin_Check1" duration-ms="5695" started-at="2021-12-12T04:14:35 IST" finished-at="2021-12-12T04:14:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidPasswordLogin_Check1 -->
+        <test-method status="PASS" signature="InvalidPassword_Check2(java.lang.String,java.lang.String)[pri:2, instance:test_suites.Shopping@2e3fc542]" name="InvalidPassword_Check2" duration-ms="5767" started-at="2021-12-12T04:14:41 IST" finished-at="2021-12-12T04:14:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adasdad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPassword_Check2 -->
+        <test-method status="PASS" signature="ValidUserLoginCheck(java.lang.String,java.lang.String)[pri:3, instance:test_suites.Shopping@2e3fc542]" name="ValidUserLoginCheck" duration-ms="5859" started-at="2021-12-12T04:14:46 IST" finished-at="2021-12-12T04:14:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserLoginCheck -->
+        <test-method status="PASS" signature="ViewProductList()[pri:3, instance:test_suites.Shopping@2e3fc542]" name="ViewProductList" duration-ms="5399" started-at="2021-12-12T04:14:52 IST" finished-at="2021-12-12T04:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewProductList -->
+        <test-method status="PASS" signature="ViewProductList_DropDownCheck()[pri:3, instance:test_suites.Shopping@2e3fc542]" name="ViewProductList_DropDownCheck" duration-ms="7356" started-at="2021-12-12T04:14:58 IST" finished-at="2021-12-12T04:15:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewProductList_DropDownCheck -->
+        <test-method status="PASS" signature="SearchBox_Check()[pri:4, instance:test_suites.Shopping@2e3fc542]" name="SearchBox_Check" duration-ms="6340" started-at="2021-12-12T04:15:05 IST" finished-at="2021-12-12T04:15:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBox_Check -->
+        <test-method status="PASS" signature="MedAddCart(java.lang.String,java.lang.String)[pri:5, instance:test_suites.Shopping@2e3fc542]" name="MedAddCart" duration-ms="15801" started-at="2021-12-12T04:15:11 IST" finished-at="2021-12-12T04:15:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Combiflame]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amoxicillin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MedAddCart -->
+        <test-method status="PASS" signature="checkCart(java.lang.String,java.lang.String)[pri:6, instance:test_suites.Shopping@2e3fc542]" name="checkCart" duration-ms="11552" started-at="2021-12-12T04:15:27 IST" finished-at="2021-12-12T04:15:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Combiflame]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amoxicillin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCart -->
+        <test-method status="PASS" signature="orderConfirm()[pri:7, instance:test_suites.Shopping@2e3fc542]" name="orderConfirm" duration-ms="7098" started-at="2021-12-12T04:15:39 IST" finished-at="2021-12-12T04:15:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirm -->
+        <test-method status="PASS" signature="selectShipping()[pri:7, instance:test_suites.Shopping@2e3fc542]" name="selectShipping" duration-ms="18181" started-at="2021-12-12T04:15:46 IST" finished-at="2021-12-12T04:16:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectShipping -->
+        <test-method status="PASS" signature="userLogOutClick()[pri:8, instance:test_suites.Shopping@2e3fc542]" name="userLogOutClick" duration-ms="4009" started-at="2021-12-12T04:16:04 IST" finished-at="2021-12-12T04:16:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogOutClick -->
+        <test-method status="PASS" signature="register_SignUpNewUser()[pri:9, instance:test_suites.Shopping@2e3fc542]" name="register_SignUpNewUser" duration-ms="26410" started-at="2021-12-12T04:16:08 IST" finished-at="2021-12-12T04:16:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_SignUpNewUser -->
+      </class> <!-- test_suites.Shopping -->
+    </test> <!-- test_suites -->
+  </suite> <!-- Medicare Capstone -->
+</testng-results>

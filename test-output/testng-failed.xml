@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Medicare Capstone]">
+  <test thread-count="5" name="test_suites(failed)">
+    <classes>
+      <class name="test_suites.Shopping">
+        <parameter name="inpassword" value="adasdad"/>
+        <parameter name="password" value="12345"/>
+        <parameter name="med2" value="Amoxicillin"/>
+        <parameter name="med1" value="Combiflame"/>
+        <parameter name="ivusername" value="tu"/>
+        <parameter name="epassword" value=""/>
+        <parameter name="username" value="tu@gmail.com"/>
+        <methods>
+          <include name="TearDown"/>
+          <include name="orderConfirm"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test_suites.Shopping -->
+    </classes>
+  </test> <!-- test_suites(failed) -->
+</suite> <!-- Failed suite [Medicare Capstone] -->

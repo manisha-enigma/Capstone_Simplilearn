@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Medicare_Capstone">
+              <span class="suite-name border-passed">Medicare Capstone</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Medicare_Capstone">
+                    <span>C:\Users\Admin\Desktop\Simplilearn Automation\phase5Capstone\project\pp\medicarecaps-master\medicarecaps-master\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Medicare_Capstone">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Medicare_Capstone">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Medicare_Capstone">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Medicare_Capstone">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Medicare_Capstone">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Medicare_Capstone">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Medicare_Capstone" class="hide-methods passed suite-Medicare_Capstone"> (hide)</a> <!-- hide-methods passed suite-Medicare_Capstone -->
+                      <a href="#" panel-name="suite-Medicare_Capstone" class="show-methods passed suite-Medicare_Capstone"> (show)</a> <!-- show-methods passed suite-Medicare_Capstone -->
+                    </span>
+                    <div class="method-list-content passed suite-Medicare_Capstone">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="AddMedicine(Ibuprofen 400mg, Reddys, 10, 1)">AddMedicine(Ibuprofen 400mg, Reddys, 10, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="EditMedQty(Paracetamol, 100)">EditMedQty(Paracetamol, 100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="EditedMedQty(Paracetamol)">EditedMedQty(Paracetamol)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="InValidPasswordLogin_Check1(tu@gmail.com, )">InValidPasswordLogin_Check1(tu@gmail.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="InValidUserLoginCheck(tu, 12345)">InValidUserLoginCheck(tu, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="InvalidPassword_Check2(tu@gmail.com, adasdad)">InvalidPassword_Check2(tu@gmail.com, adasdad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="ManageProductsPageConfirm">ManageProductsPageConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="MedAddCart(Combiflame, Amoxicillin)">MedAddCart(Combiflame, Amoxicillin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="SearchBox_Check">SearchBox_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="ValidAdminUserLoginCheck(vk@gmail.com, admin)">ValidAdminUserLoginCheck(vk@gmail.com, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="ValidUserLoginCheck(tu@gmail.com, 12345)">ValidUserLoginCheck(tu@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="ViewProductList">ViewProductList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="ViewProductList_DropDownCheck">ViewProductList_DropDownCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="checkCart(Combiflame, Amoxicillin)">checkCart(Combiflame, Amoxicillin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="orderConfirm">orderConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="product_ActivateDeactivate(Paracetamol)">product_ActivateDeactivate(Paracetamol)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="register_SignUpNewUser">register_SignUpNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="selectShipping">selectShipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.Shopping" hash-for-method="userLogOutClick">userLogOutClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.AdminActions" hash-for-method="userLogOutClick">userLogOutClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validateAboutPage">validateAboutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validateContactPage">validateContactPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validateHomePage">validateHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validateLoginPage">validateLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validateSignupPage">validateSignupPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validateViewProducts">validateViewProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validate_Categories_AnalgesicsViewProducts">validate_Categories_AnalgesicsViewProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validate_Categories_AntibioticsViewProducts">validate_Categories_AntibioticsViewProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Medicare_Capstone" title="test_suites.SiteMap_Common" hash-for-method="validate_Categories_AntipyreticsViewProducts">validate_Categories_AntipyreticsViewProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Medicare_Capstone -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Medicare_Capstone" class="panel Medicare_Capstone">
+          <div class="suite-Medicare_Capstone-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_suites.AdminActions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddMedicine(Ibuprofen 400mg, Reddys, 10, 1)">
+                  </a> <!-- AddMedicine(Ibuprofen 400mg, Reddys, 10, 1) -->
+                  <span class="method-name">AddMedicine</span>
+                  <span class="parameters">(Ibuprofen 400mg, Reddys, 10, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditMedQty(Paracetamol, 100)">
+                  </a> <!-- EditMedQty(Paracetamol, 100) -->
+                  <span class="method-name">EditMedQty</span>
+                  <span class="parameters">(Paracetamol, 100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditedMedQty(Paracetamol)">
+                  </a> <!-- EditedMedQty(Paracetamol) -->
+                  <span class="method-name">EditedMedQty</span>
+                  <span class="parameters">(Paracetamol)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManageProductsPageConfirm">
+                  </a> <!-- ManageProductsPageConfirm -->
+                  <span class="method-name">ManageProductsPageConfirm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidAdminUserLoginCheck(vk@gmail.com, admin)">
+                  </a> <!-- ValidAdminUserLoginCheck(vk@gmail.com, admin) -->
+                  <span class="method-name">ValidAdminUserLoginCheck</span>
+                  <span class="parameters">(vk@gmail.com, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="product_ActivateDeactivate(Paracetamol)">
+                  </a> <!-- product_ActivateDeactivate(Paracetamol) -->
+                  <span class="method-name">product_ActivateDeactivate</span>
+                  <span class="parameters">(Paracetamol)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogOutClick">
+                  </a> <!-- userLogOutClick -->
+                  <span class="method-name">userLogOutClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medicare_Capstone-class-passed -->
+          <div class="suite-Medicare_Capstone-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_suites.SiteMap_Common</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAboutPage">
+                  </a> <!-- validateAboutPage -->
+                  <span class="method-name">validateAboutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContactPage">
+                  </a> <!-- validateContactPage -->
+                  <span class="method-name">validateContactPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePage">
+                  </a> <!-- validateHomePage -->
+                  <span class="method-name">validateHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPage">
+                  </a> <!-- validateLoginPage -->
+                  <span class="method-name">validateLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignupPage">
+                  </a> <!-- validateSignupPage -->
+                  <span class="method-name">validateSignupPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateViewProducts">
+                  </a> <!-- validateViewProducts -->
+                  <span class="method-name">validateViewProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_Categories_AnalgesicsViewProducts">
+                  </a> <!-- validate_Categories_AnalgesicsViewProducts -->
+                  <span class="method-name">validate_Categories_AnalgesicsViewProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_Categories_AntibioticsViewProducts">
+                  </a> <!-- validate_Categories_AntibioticsViewProducts -->
+                  <span class="method-name">validate_Categories_AntibioticsViewProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_Categories_AntipyreticsViewProducts">
+                  </a> <!-- validate_Categories_AntipyreticsViewProducts -->
+                  <span class="method-name">validate_Categories_AntipyreticsViewProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medicare_Capstone-class-passed -->
+          <div class="suite-Medicare_Capstone-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_suites.Shopping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InValidPasswordLogin_Check1(tu@gmail.com, )">
+                  </a> <!-- InValidPasswordLogin_Check1(tu@gmail.com, ) -->
+                  <span class="method-name">InValidPasswordLogin_Check1</span>
+                  <span class="parameters">(tu@gmail.com, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InValidUserLoginCheck(tu, 12345)">
+                  </a> <!-- InValidUserLoginCheck(tu, 12345) -->
+                  <span class="method-name">InValidUserLoginCheck</span>
+                  <span class="parameters">(tu, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPassword_Check2(tu@gmail.com, adasdad)">
+                  </a> <!-- InvalidPassword_Check2(tu@gmail.com, adasdad) -->
+                  <span class="method-name">InvalidPassword_Check2</span>
+                  <span class="parameters">(tu@gmail.com, adasdad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MedAddCart(Combiflame, Amoxicillin)">
+                  </a> <!-- MedAddCart(Combiflame, Amoxicillin) -->
+                  <span class="method-name">MedAddCart</span>
+                  <span class="parameters">(Combiflame, Amoxicillin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBox_Check">
+                  </a> <!-- SearchBox_Check -->
+                  <span class="method-name">SearchBox_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidUserLoginCheck(tu@gmail.com, 12345)">
+                  </a> <!-- ValidUserLoginCheck(tu@gmail.com, 12345) -->
+                  <span class="method-name">ValidUserLoginCheck</span>
+                  <span class="parameters">(tu@gmail.com, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewProductList">
+                  </a> <!-- ViewProductList -->
+                  <span class="method-name">ViewProductList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewProductList_DropDownCheck">
+                  </a> <!-- ViewProductList_DropDownCheck -->
+                  <span class="method-name">ViewProductList_DropDownCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCart(Combiflame, Amoxicillin)">
+                  </a> <!-- checkCart(Combiflame, Amoxicillin) -->
+                  <span class="method-name">checkCart</span>
+                  <span class="parameters">(Combiflame, Amoxicillin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderConfirm">
+                  </a> <!-- orderConfirm -->
+                  <span class="method-name">orderConfirm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_SignUpNewUser">
+                  </a> <!-- register_SignUpNewUser -->
+                  <span class="method-name">register_SignUpNewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectShipping">
+                  </a> <!-- selectShipping -->
+                  <span class="method-name">selectShipping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogOutClick">
+                  </a> <!-- userLogOutClick -->
+                  <span class="method-name">userLogOutClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Medicare_Capstone-class-passed -->
+        </div> <!-- panel Medicare_Capstone -->
+        <div panel-name="test-xml-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\Desktop\Simplilearn Automation\phase5Capstone\project\pp\medicarecaps-master\medicarecaps-master\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Medicare Capstone&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test_suites&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test_suites.SiteMap_Common&quot;/&gt;
+      &lt;class name=&quot;test_suites.Shopping&quot;&gt;
+        &lt;parameter name=&quot;inpassword&quot; value=&quot;adasdad&quot;/&gt;
+        &lt;parameter name=&quot;password&quot; value=&quot;12345&quot;/&gt;
+        &lt;parameter name=&quot;med2&quot; value=&quot;Amoxicillin&quot;/&gt;
+        &lt;parameter name=&quot;med1&quot; value=&quot;Combiflame&quot;/&gt;
+        &lt;parameter name=&quot;ivusername&quot; value=&quot;tu&quot;/&gt;
+        &lt;parameter name=&quot;epassword&quot; value=&quot;&quot;/&gt;
+        &lt;parameter name=&quot;username&quot; value=&quot;tu@gmail.com&quot;/&gt;
+      &lt;/class&gt; &lt;!-- test_suites.Shopping --&gt;
+      &lt;class name=&quot;test_suites.AdminActions&quot;&gt;
+        &lt;parameter name=&quot;ausername&quot; value=&quot;vk@gmail.com&quot;/&gt;
+        &lt;parameter name=&quot;unitPrice&quot; value=&quot;10&quot;/&gt;
+        &lt;parameter name=&quot;medname&quot; value=&quot;Paracetamol&quot;/&gt;
+        &lt;parameter name=&quot;qty&quot; value=&quot;100&quot;/&gt;
+        &lt;parameter name=&quot;name&quot; value=&quot;Ibuprofen 400mg&quot;/&gt;
+        &lt;parameter name=&quot;apassword&quot; value=&quot;admin&quot;/&gt;
+        &lt;parameter name=&quot;category&quot; value=&quot;1&quot;/&gt;
+        &lt;parameter name=&quot;brand&quot; value=&quot;Reddys&quot;/&gt;
+      &lt;/class&gt; &lt;!-- test_suites.AdminActions --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test_suites --&gt;
+&lt;/suite&gt; &lt;!-- Medicare Capstone --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Medicare Capstone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test_suites (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Medicare Capstone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Medicare Capstone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Medicare_Capstone');
+function tableData_Medicare_Capstone() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'register_SignUpNewUser')
+data.setCell(0, 2, 'test_suites.Shopping')
+data.setCell(0, 3, 26410);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'product_ActivateDeactivate')
+data.setCell(1, 2, 'test_suites.AdminActions')
+data.setCell(1, 3, 23318);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectShipping')
+data.setCell(2, 2, 'test_suites.Shopping')
+data.setCell(2, 3, 18181);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'MedAddCart')
+data.setCell(3, 2, 'test_suites.Shopping')
+data.setCell(3, 3, 15801);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkCart')
+data.setCell(4, 2, 'test_suites.Shopping')
+data.setCell(4, 3, 11552);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'EditMedQty')
+data.setCell(5, 2, 'test_suites.AdminActions')
+data.setCell(5, 3, 7762);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ViewProductList_DropDownCheck')
+data.setCell(6, 2, 'test_suites.Shopping')
+data.setCell(6, 3, 7356);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'orderConfirm')
+data.setCell(7, 2, 'test_suites.Shopping')
+data.setCell(7, 3, 7098);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validate_Categories_AntipyreticsViewProducts')
+data.setCell(8, 2, 'test_suites.SiteMap_Common')
+data.setCell(8, 3, 6787);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validate_Categories_AntibioticsViewProducts')
+data.setCell(9, 2, 'test_suites.SiteMap_Common')
+data.setCell(9, 3, 6778);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validate_Categories_AnalgesicsViewProducts')
+data.setCell(10, 2, 'test_suites.SiteMap_Common')
+data.setCell(10, 3, 6769);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SearchBox_Check')
+data.setCell(11, 2, 'test_suites.Shopping')
+data.setCell(11, 3, 6340);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AddMedicine')
+data.setCell(12, 2, 'test_suites.AdminActions')
+data.setCell(12, 3, 5928);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ValidUserLoginCheck')
+data.setCell(13, 2, 'test_suites.Shopping')
+data.setCell(13, 3, 5859);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'InvalidPassword_Check2')
+data.setCell(14, 2, 'test_suites.Shopping')
+data.setCell(14, 3, 5767);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'InValidUserLoginCheck')
+data.setCell(15, 2, 'test_suites.Shopping')
+data.setCell(15, 3, 5702);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'InValidPasswordLogin_Check1')
+data.setCell(16, 2, 'test_suites.Shopping')
+data.setCell(16, 3, 5695);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ViewProductList')
+data.setCell(17, 2, 'test_suites.Shopping')
+data.setCell(17, 3, 5399);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'EditedMedQty')
+data.setCell(18, 2, 'test_suites.AdminActions')
+data.setCell(18, 3, 4781);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ValidAdminUserLoginCheck')
+data.setCell(19, 2, 'test_suites.AdminActions')
+data.setCell(19, 3, 4513);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateSignupPage')
+data.setCell(20, 2, 'test_suites.SiteMap_Common')
+data.setCell(20, 3, 4484);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ManageProductsPageConfirm')
+data.setCell(21, 2, 'test_suites.AdminActions')
+data.setCell(21, 3, 4357);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateViewProducts')
+data.setCell(22, 2, 'test_suites.SiteMap_Common')
+data.setCell(22, 3, 4291);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateContactPage')
+data.setCell(23, 2, 'test_suites.SiteMap_Common')
+data.setCell(23, 3, 4263);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'userLogOutClick')
+data.setCell(24, 2, 'test_suites.AdminActions')
+data.setCell(24, 3, 4035);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'userLogOutClick')
+data.setCell(25, 2, 'test_suites.Shopping')
+data.setCell(25, 3, 4009);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validateLoginPage')
+data.setCell(26, 2, 'test_suites.SiteMap_Common')
+data.setCell(26, 3, 3447);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateHomePage')
+data.setCell(27, 2, 'test_suites.SiteMap_Common')
+data.setCell(27, 3, 3095);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validateAboutPage')
+data.setCell(28, 2, 'test_suites.SiteMap_Common')
+data.setCell(28, 3, 2200);
+window.suiteTableData['Medicare_Capstone']= { tableData: data, tableDiv: 'times-div-Medicare_Capstone'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Medicare_Capstone">
+              </div> <!-- times-div-Medicare_Capstone -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Medicare Capstone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test_suites.AdminActions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test_suites.Shopping</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Medicare_Capstone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_suites.SiteMap_Common</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateHomePage</span>
+                <span class="method-start">8636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateContactPage</span>
+                <span class="method-start">11731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAboutPage</span>
+                <span class="method-start">15994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateViewProducts</span>
+                <span class="method-start">18194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_Categories_AntipyreticsViewProducts</span>
+                <span class="method-start">22485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_Categories_AnalgesicsViewProducts</span>
+                <span class="method-start">29272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_Categories_AntibioticsViewProducts</span>
+                <span class="method-start">36041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateSignupPage</span>
+                <span class="method-start">42819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginPage</span>
+                <span class="method-start">47303 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_suites.Shopping</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">InValidUserLoginCheck(tu, 12345)</span>
+                <span class="method-start">50750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InValidPasswordLogin_Check1(tu@gmail.com, )</span>
+                <span class="method-start">56454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidPassword_Check2(tu@gmail.com, adasdad)</span>
+                <span class="method-start">62150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidUserLoginCheck(tu@gmail.com, 12345)</span>
+                <span class="method-start">67917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewProductList</span>
+                <span class="method-start">73779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewProductList_DropDownCheck</span>
+                <span class="method-start">79194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchBox_Check</span>
+                <span class="method-start">86550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MedAddCart(Combiflame, Amoxicillin)</span>
+                <span class="method-start">92892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCart(Combiflame, Amoxicillin)</span>
+                <span class="method-start">108694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">orderConfirm</span>
+                <span class="method-start">120252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectShipping</span>
+                <span class="method-start">127350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userLogOutClick</span>
+                <span class="method-start">145531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register_SignUpNewUser</span>
+                <span class="method-start">149540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_suites.AdminActions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ValidAdminUserLoginCheck(vk@gmail.com, admin)</span>
+                <span class="method-start">175950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ManageProductsPageConfirm</span>
+                <span class="method-start">180468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddMedicine(Ibuprofen 400mg, Reddys, 10, 1)</span>
+                <span class="method-start">184825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditMedQty(Paracetamol, 100)</span>
+                <span class="method-start">190754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">product_ActivateDeactivate(Paracetamol)</span>
+                <span class="method-start">198516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditedMedQty(Paracetamol)</span>
+                <span class="method-start">221834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userLogOutClick</span>
+                <span class="method-start">226615 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_suites.SiteMap_Common</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">230650 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

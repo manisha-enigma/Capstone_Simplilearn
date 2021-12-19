@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [medicarecaps]">
+  <test thread-count="5" name="Tsuites(failed)">
+    <classes>
+      <class name="TSuites.AdminActions">
+        <parameter name="ausername" value="vk@gmail.com"/>
+        <parameter name="unitPrice" value="10"/>
+        <parameter name="medname" value="Paracetamol"/>
+        <parameter name="qty" value="100"/>
+        <parameter name="name" value="Ibuprofen 400mg"/>
+        <parameter name="apassword" value="admin"/>
+        <parameter name="category" value="1"/>
+        <parameter name="brand" value="Reddys"/>
+        <methods>
+          <include name="TearDown"/>
+          <include name="ValidAdminUserLoginCheck" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TSuites.AdminActions -->
+    </classes>
+  </test> <!-- Tsuites(failed) -->
+</suite> <!-- Failed suite [medicarecaps] -->
